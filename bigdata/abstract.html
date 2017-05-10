@@ -1,0 +1,103 @@
+<html>﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head profile="http://gmpg.org/xfn/11">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <meta content="刘驰" name="author" />
+	<meta content="bigdata书籍,Hadoop,大数据安全,大数据治理" name="keywords" />
+	<meta content="BITLINC系列丛书官方宣传首页" name="description" />
+	
+	<title>《大数据安全与治理：从理论到开源实践》内容简介</title>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link rel="stylesheet" href="../css/bootstrap.css" tppabs="http://book.fangheart.top/css/bootstrap.css" />
+    <link media="all" type="text/css" rel="stylesheet" href="../css/style.css-body=1" tppabs="http://book.fangheart.top/css/style.css?body=1" />
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+
+    <div class="topbar">
+      <div class="fill">
+        <div class="container">
+          <a href="../index.htm" tppabs="http://book.fangheart.top/" class="brand">BITLINC系列丛书</a>
+          <ul class="nav">   	
+    	<li><a href="abstract.html" tppabs="http://book.fangheart.top/bigdata/abstract.html">内容简介</a></li>
+    	<li><a href="list.html" tppabs="http://book.fangheart.top/bigdata/list.html">书籍目录</a></li>	
+    	<li><a href="resources.html" tppabs="http://book.fangheart.top/bigdata/resources.html">参考资料</a></li>
+		<li><a href="mistake.html" tppabs="http://book.fangheart.top/bigdata/mistake.html">书籍勘误</a></li>		
+		<li><a href="../author.html" tppabs="http://book.fangheart.top/author.html">作者简介</a></li>
+    <li><a href="download.html" tppabs="http://www.bitlinc.com/bigdata/download.html">相关组件下载</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        
+<div class="page-header">
+  <h1>《大数据安全与治理：从理论到开源实践》内容简介</h1>
+</div>
+
+<div class="row">
+  <div class="span14">
+    <p>本书分为两大部分（不包括附录）：</p>
+<ul>
+<p> <li>第一部分为理论篇。从大数据治理的概念以及作用，阐述了大数据治理的重要性，以及对大数据治理的原则、范围及评估内容作了简要介绍；并且从大数据安全、隐私和审计方面出发，探讨了大数据安全所面临的挑战与问题，以及解决这些问题的技术与方案、作用和意义。</li></p>
+<p> <li>第二部分为开源实现篇。本书作者对开源社区的各类顶级开源项目做了相当充分的研究和实践，将研究与实践的内容根据不同组件分类，汇总成为该篇的主要内容。从第3章到第7章，全面介绍了Apache Falcon、Apache Atlas、Apache Ranger、Apache Sentry与Kerberos等大数据治理与安全等开源组件的技术概况、配置与使用、场景设计与实现、以及具体应用举例等多个方面的内容。</li></p>
+
+<p> <li>第3章深入介绍了建立在Hadoop环境下的数据过程及数据集管理系统Apache Falcon的技术概况与架构特点，在此基础上，对集群上进行数据保留、生命周期管理以及数据血统及追踪等功能进行了介绍，同时设计与实现了日常生产环境中可能用到的数据处理场景，可作为相关从业者的参考，最后从Falcon的具体应用举例来说明其在数据流程管理领域的使用前景。</li></p>
+<p> <li>第4章全面介绍了元数据管理框架Apache Atlas的技术概况、配置使用与具体使用场景等核心内容。本章首先介绍Apache Atlas在元数据管理方面的突出优势，进而对Hive、Sqoop、Storm及Falcon的多种元数据导入方式进行了介绍，并对元数据的管理也做了十分深入的阐述；在此基础之上，对Atlas的实时数据、非实时数据等元数据管理场景进行了设计与实现，能够为类似场景下的构建与使用提供参考。</li></p>
+<p> <li>第5章讲述了安全认证框架Apache Ranger的技术概况、发展近况、Ranger插件集成和功能验证等内容。本章首先介绍了Apache Ranger在Hadoop生态系统中安全认证的优势和特点，并Ranger对Hadoop生态组件如HDFS、HIVE、HBASE等如何进行安全数据访问控制做出详细阐述。最后给出了Ranger四种不同策略的实际场景，对Ranger安全功能进行了验证。</li></p>
+<p> <li>第6章对Cloudera公司发布的高度模块化的权限管理组件Apache Sentry作了较为深入的介绍，弥补了Hadoop文件系统缺乏对数据和BI应用细粒度的权限访问支持的问题。从Sentry的特点，优势，发展近况出发，对Sentry架构中的Binding，Policy Engine和policy Provider三大核心组件进行了详细的阐述，并介绍了Sentry与相应环境的搭建部署步骤Sentry与Impala的集成步骤，以及在各类场景下Sentry的设计与使用方法。</li></p>
+<p> <li>第7章除了对网络认证协议Kerberos的特点与组成、架构与应用等做了介绍外，还对大数据应用下的诸多组件与Kerberos的集成做了十分详细的实践内容介绍，包括HDFS、Yarn、Zookeeper、Hive、HBase、Sqoop、Hue、Spark、Solr、Kafka、Storm与Impala的集成，几乎涵盖了大部分高校科研与企业实际应用所涉及到的各类组件，能够为高校科研人员与企业开发人员提供一定的参考与帮助。</li></p>
+
+
+
+另外大数据发展迅速，而大数据治理与安全作为其分支内容更是日新月异，很难有从业者对其有十分精深的认识，本书亦如此，由于笔者水平与精力有限，书中难免有不足与谬误之处，若读者发现问题并不吝告知，笔者不胜感激。
+</ul>
+  </div>
+</div>
+
+
+      </div>
+
+      <footer>
+        <p>&copy;BITLINC 2017.</a>
+
+<!--此处加访问量统计-->
+
+</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    
+
+<!--谷歌百度分析-->
+ 
+
+
+
+
+  
+
+
+</body></html>
